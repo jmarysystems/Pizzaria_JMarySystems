@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence version="1.0" xmlns="http://java.sun.com/xml/ns/persistence" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://java.sun.com/xml/ns/persistence http://java.sun.com/xml/ns/persistence/persistence_1_0.xsd">
+  <persistence-unit name="todos" transaction-type="RESOURCE_LOCAL">
+    <provider>org.eclipse.persistence.jpa.PersistenceProvider</provider>
+    <class>materias.Materia</class>
+    <class>categorias.Categoria</class>
+    <class>assunto.Assunto</class>
+    <class>exercicios.Exercicios</class>
+    <class>subcategoria.Subcategoria</class>
+    <class>clientes.Clientes</class>
+    <class>produtos.Produtos</class>
+    <class>venda.Venda</class>
+    <class>venda.Produtosdavenda</class>
+    <properties>
+
+    </properties>
+  </persistence-unit>
+</persistence>
